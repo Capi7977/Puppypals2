@@ -1,0 +1,41 @@
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #3f51b5; /* Primary color */
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #212121; /* Dark grey text */
+}
+
+.change-button {
+  background-color: #3f51b5; /* Primary color */
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.change-button:hover {
+  background-color: #303f9f; /* Darker primary color */
+}
+
+/* ... previous styles from App.css ... */
+
+.animate-spin {
+  animation: spin 1s ease-in-out; /* 1 second duration */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
